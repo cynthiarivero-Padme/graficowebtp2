@@ -116,6 +116,23 @@ a:hover{
   color: #000000;
   transform: translateY(-1px); 
 }
+.fijo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+
+  z-index: 1000;
+}
+
+
+.fijo .boton {
+  padding: 8px 14px;
+  font-size: 0.9rem;
+}
 
 /*footer*/
 
@@ -697,4 +714,5 @@ a:hover{
 
 
   
+
 
